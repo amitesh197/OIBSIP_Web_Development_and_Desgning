@@ -1,0 +1,288 @@
+body {
+    font-family: "Garamond";
+        padding: 0;
+        margin: 0;
+        background-color: #222;
+    }
+    
+    .container {
+        width:90vw;
+        max-width:1200px;
+        margin:0 auto;
+    }
+    header {
+        width:100%;
+        background-color:#111;
+    }
+    header .logo {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    header .logo img {
+    
+    width:100%;
+    
+    }
+    header nav {
+        background-color:rgba(0,0,0,0.3);
+        border-top:solid 1px white;
+        border-bottom: solid 1px white;
+    }
+    header nav ul {
+        margin:0 auto;
+        width:fit-content;
+        padding:0;
+        width:100%;
+        margin:0 auto;
+        text-align: center;
+    }
+    header nav ul li {
+        display:inline;
+       
+        letter-spacing: 6px;
+    }
+    header nav ul li a {
+        color:white;
+        padding: 0.9em 3%;
+        display:inline-block;
+        text-decoration: none;
+    }
+    main {
+        background-color:black;
+    }
+    .jumbotron {
+        display:flex;
+        width:100%;
+        height:60vh;
+        background-color:black;
+        background-image: url(../img/main-bg.jpeg);
+        background-size:cover;
+        background-position: center;
+    
+        color:white;
+        text-transform: uppercase;
+        text-align: center;
+       align-items: center;
+       background-image: url(download\ \(4\).jfif);
+    }
+    .jumbotron .inner {
+        display:table;
+        height:100%;
+        overflow:hidden;
+        padding:0;
+       
+    }
+    .jumbotron .inner .section {
+    vertical-align: middle;
+    display:table-cell;
+    width:100%;
+    
+    }
+    .row {
+      
+        width:100%;
+      
+    }
+    .jumbotron h1 {
+        font-size:3em;
+        letter-spacing: 0.3em;
+     text-align:center;
+        width:100%;
+        font-weight: 100;
+        text-shadow: 0px 0px 20px black;
+        margin-top:0em;
+    }
+    .jumbotron p {
+        text-transform: none;
+        letter-spacing: 2px;
+        padding-bottom: 4em;
+        text-shadow: 0px 0px 3px black;
+        width:100%;
+        max-width:900px;
+            font-weight: 100;
+        margin:0 auto;
+        line-height:2em;
+        font-family: 'Tahoma';
+    }
+    .jumbotron a {
+        display:block;
+        margin:0 auto;
+        width: fit-content;
+        text-decoration: none;
+        background-color:white;
+        color:black !important;
+        padding:1em 3em;
+        letter-spacing:2px;
+    
+    }
+    a {
+        transition: all 0.3s ease;
+    }
+    
+     a:hover {
+         background-color: white;
+         color: black !important;
+     }
+    .jumbotron a:hover {
+        margin-top:-9px;
+    background-color: black;
+        color: white !important;
+    }
+    .jumbotron .inner {
+       color: white;
+    }
+    
+    .info-boxes {
+        display: flex;
+            border-top: solid 1px white;
+                border-bottom: solid 1px white;
+                animation: fadeInDown 3s;
+            
+    }
+    .info-boxes .col {
+        width: 33.33%;
+        height:300px;
+        background-color:black;
+        background-size:cover;
+        background-position: center;
+        display:flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        text-align:center;
+        filter: grayscale(100%);
+        cursor: pointer;
+        animation: fadeInDown 3s;
+        
+    }
+    .info-boxes .col:hover, .jumbotron:hover {
+       
+        filter: grayscale(20%);
+        
+    }
+    .info-boxes div.col:nth-of-type(1) {
+    background-image: url(men.png);
+    
+    }
+    
+    .info-boxes div.col:nth-of-type(2) {
+        background-image: url(download.jfif);
+       border-left:solid 1px white;
+       border-right:solid 1px white;
+    }
+    
+    
+    
+    .info-boxes div.col:nth-of-type(3) {
+        background-image: url(images.jfif);
+    }
+    .inner {
+        padding: 2em;
+        width:-webkit-fill-available;
+        
+    }
+    
+    .info-boxes .col .category {
+        text-transform: uppercase;
+            text-align: center;
+               
+            animation: fadeInDown 3s;
+                width: 60%;
+                background-color: transparent;
+                width: 100px;
+                border: solid 1px white;
+                padding: 2em;
+             color:white;
+             letter-spacing: 3px;
+             font-size: 10px;
+             background-color:rgba(0,0,0,0.9)
+    }
+    .info-boxes .col .category {
+    display:table-cell;
+    vertical-align: middle;
+    }
+    footer {
+        background-color:#111;
+        line-height: 3em;
+    
+        color:white;
+    
+    }
+    footer .logo {
+        max-width: 210px;
+    }
+    footer .logo img {
+        width:100%;
+    }
+    .columns {
+        display:flex;
+    
+    }
+    .col ul {
+        margin-left:2em;
+    }
+    .col ul li a {
+        color:white;
+        text-decoration: none;
+        padding:0;
+        display:inline-block;
+        letter-spacing: 6px;
+    }
+    .columns .col {
+    min-width:30%;
+    }
+    ul {
+        list-style-type:none;
+        padding:0;
+    }
+    .o-6 {
+        opacity:0.6;
+        letter-spacing: 3px;
+    }
+    .copyright {
+        text-transform: uppercase;
+            margin-top: 2em;
+            letter-spacing: 6px;
+            padding: 2em;
+            padding-left: 6em;
+            justify-self: flex-end;
+            align-self: end;
+            width: -webkit-fill-available;
+            text-align: right;
+    }
+    
+    footer .navigation {
+        display:none;
+    }
+    
+    
+    .fade-in-image {
+        animation: fadeIn 5s;
+    }
+    
+    .fade-in-text {
+        animation: fadeInDown 3s;
+    }
+    
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes fadeInDown {
+        0% {
+            opacity: 0;
+            margin-top:-5em;
+        }
+    
+        100% {
+            opacity: 1;
+            margin-top:0;
+        }
+    
+    }
